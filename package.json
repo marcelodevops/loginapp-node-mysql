@@ -1,0 +1,35 @@
+{
+  "name": "loginapp-node-mysql",
+  "version": "1.0.0",
+  "description": "login api using node and mysql , docker-compose for local deployment and automtic deployment to GCP or some other Cloud provider",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelodevops/loginapp-node-mysql.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mysql",
+    "api",
+    "login",
+    "rest"
+  ],
+  "author": "marcelodevops",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcelodevops/loginapp-node-mysql/issues"
+  },
+  "homepage": "https://github.com/marcelodevops/loginapp-node-mysql#readme",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonfile": "^6.0.1",
+    "mysql": "^2.18.1"
+  }
+}
